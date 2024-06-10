@@ -1,7 +1,4 @@
-insert into users (username, password, enabled) VALUES
-                                                    ('admin', 'to_be_encoded', true),
-                                                    ('user', 'to_be_encoded', true);
+insert into users (email, password, rol) VALUES
+                                                    ('admin_user@mambanegra.com', 'to_be_encoded', 'admin'),
+                                                    ('basic_user@mambanegra', 'to_be_encoded', 'user');
 
-insert into authorities (username, authority) VALUES
-                                                  ('admin', 'admin'),
-                                                  ('user', 'user');
